@@ -1,0 +1,7 @@
+streamlit
+matplotlib
+streamlit_authenticator==0.1.5
+urlextract
+emoji
+pandas
+wordcloud
