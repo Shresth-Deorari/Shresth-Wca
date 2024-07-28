@@ -1,14 +1,19 @@
-from deta import Deta
+from sqlalchemy import create_engine, Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
 
-DETA_KEY = "RFZS2KSz_pX5PDUACkTyCdPCFh1qgXd8oy9xbQLJz"
+DATABASE_URL = "sqlite:///./test.db"
 
-deta = Deta(DETA_KEY)
+engine = create_engine(DATABASE_URL)  # Fixed typo here
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+Base = declarative_base()
 
-db = deta.Base("user_db")
+class User(Base):
+    __tablename__ = "users"
+    id = Column(Integer, primary_key=True, index=True)
+    username = Column(String, unique=True, index=True)
+    email = Column(String, unique=True, index=True)
+    hashed_password = Column(String)
 
+Base.metadata.create_all(bind=engine)
 
-def insert_user(username, name, password):
-    return db.put({"Key": username, "name": name, "password": password})
-
-
-insert_user("shresth_38","Shreth Deorari","13feb2004")

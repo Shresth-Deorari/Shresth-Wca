@@ -5,3 +5,5 @@ urlextract
 emoji
 pandas
 wordcloud
+werkzeug
+sqlalchemy
