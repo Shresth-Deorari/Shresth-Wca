@@ -4,6 +4,20 @@
 
 WhatsApp Chat Analyzer is a Streamlit-based web application that allows users to analyze their WhatsApp chat logs. Users can log in, sign up, or reset their password within the app. Once authenticated, users can upload a WhatsApp chat text file and get insights into their chat history, including statistics, timelines, word clouds, and emoji usage.
 
+## ScreenShots
+
+1. Login Screen
+   ![Login Screen](./login.png)
+
+2. SignUp Screen
+   ![Login Screen](./signup.png)
+
+3. Dashboard Screen
+   ![Login Screen](./dashboard.png)
+
+4. Analysis Screen
+   ![Login Screen](./analysis.png)
+
 ## Features
 
 - **User Authentication**: Users can log in, sign up, or reset their password.
@@ -38,20 +52,6 @@ WhatsApp Chat Analyzer is a Streamlit-based web application that allows users to
     ```
     DATABASE_URL=sqlite:///./test.db
     ```
-
-## ScreenShots
-
-1. Login Screen
-   ![Login Screen](./login.png)
-
-2. SignUp Screen
-   ![Login Screen](./signup.png)
-
-3. Dashboard Screen
-   ![Login Screen](./dashboard.png)
-
-4. Analysis Screen
-   ![Login Screen](./analysis.png)
 
 ### Running the Application
 
