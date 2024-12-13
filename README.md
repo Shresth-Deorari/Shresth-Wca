@@ -6,17 +6,22 @@ WhatsApp Chat Analyzer is a Streamlit-based web application that allows users to
 
 ## ScreenShots
 
-1. Login Screen
+## 1. Login Screen
    ![Login Screen](./login.png)
 
-2. SignUp Screen
+## 2. SignUp Screen
    ![Login Screen](./signup.png)
 
-3. Dashboard Screen
+## 3. Dashboard Screen
    ![Login Screen](./dashboard.png)
 
-4. Analysis Screen
-   ![Login Screen](./analysis.png)
+## 4. Analysis
+
+<p align="center">
+  <img src="analysis1.png" alt="Image 1" width="48%">
+  <img src="analysis2.png" alt="Image 2" width="48%">
+</p>
+
 
 ## Features
 
