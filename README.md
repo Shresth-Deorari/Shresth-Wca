@@ -39,6 +39,20 @@ WhatsApp Chat Analyzer is a Streamlit-based web application that allows users to
     DATABASE_URL=sqlite:///./test.db
     ```
 
+## ScreenShots
+
+1. Login Screen
+   ![Login Screen](./login.png)
+
+2. SignUp Screen
+   ![Login Screen](./signup.png)
+
+3. Dashboard Screen
+   ![Login Screen](./dashboard.png)
+
+4. Analysis Screen
+   ![Login Screen](./analysis.png)
+
 ### Running the Application
 
 1. Run the Streamlit application:
